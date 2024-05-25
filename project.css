@@ -1,0 +1,83 @@
+
+body {
+    background-image: url(img5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.first {
+    
+    background: rgba(44, 62, 80, 0.7 );
+    padding: 40px;
+    width: 250;
+    margin-top: 90;
+    margin-left: 480;
+    
+    
+
+}
+
+form {
+    text-align: center;
+    width: 240;
+    margin-top: -10;
+    margin: 0;
+}
+
+input {
+    text-align: center;
+    background:transparent ;
+    width: 240;
+    border: none;
+    border-bottom: 2px solid white;
+
+    font-size: 16;
+    font-weight: 200;
+    padding: 10px 0;
+    transition: border 0.5;
+    outline: none;
+    height: 35;
+}
+
+.two {
+    margin-left: 600;
+    width: 200;
+}
+
+button {
+    font-size: 30;
+    height: 45;
+    width: 230;
+    padding: 5 0;
+    border: none;
+    border-radius: 250px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: gold;
+}
+a:hover {
+    color: blue;
+}
+
+h3 {
+    color: gold;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.6;
+}
+
+.two {
+    color: red;
+}
